@@ -9,7 +9,7 @@
 
 function countPositivesSumNegatives(input) {
     let negSum = 0
-    if (input === null || input.length === 0) return []
+    if (input == null || input.length == 0) return []
     let negOnly = input.filter(num => num < 0)
     let posOnly = input.filter(num => num > 0)
     let posCount = posOnly.length

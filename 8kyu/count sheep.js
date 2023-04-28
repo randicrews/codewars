@@ -13,7 +13,6 @@ var countSheep = function (num){
       sheeps = sheeps + `${sheepNum} sheep...`
       
     } while (sheepNum < num);
-      
     return sheeps
     }
     else return ''
