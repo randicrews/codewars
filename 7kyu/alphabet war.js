@@ -32,8 +32,7 @@
 // w p b s = left 
 // m q d z = right
 
-function alphabetWar(fight)
-{
+function alphabetWar(fight){
   fight = fight.split('')
   let left = 0
   let right = 0
