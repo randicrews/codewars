@@ -12,8 +12,8 @@
 //  p - 3
 //  b - 2
 //  s - 1
-// The right side letters and their power:
 
+// The right side letters and their power:
 //  m - 4
 //  q - 3
 //  d - 2
@@ -31,7 +31,6 @@
 // return winner
 // w p b s = left 
 // m q d z = right
-
 
 function alphabetWar(fight)
 {

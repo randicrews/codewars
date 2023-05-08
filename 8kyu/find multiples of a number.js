@@ -3,7 +3,6 @@
 // For example, if the parameters passed are (2, 6), the function should return [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
 
 function findMultiples(integer, limit) {
-    //your code here
     const mulArray = []
     for ( let i = integer; i <= limit; i += integer ){
       mulArray.push(i) 
