@@ -9,9 +9,7 @@
 // The array will contain a minimum of two elements. Input data range guarantees that max-min will cause no integer overflow.
 
 function betweenExtremes(numbers) {
-    //write your code here
   const max = Math.max(...numbers)
   const min = Math.min(...numbers)
   return max - min 
-  
 }
