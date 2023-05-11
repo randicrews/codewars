@@ -20,10 +20,7 @@ function seatsInTheater(nCols, nRows, col, row) {
     const wholeArea = nCols * nRows
     
     // area of people behind u 
-    
     const behind = (nRows - row) * (nCols - (col -1))
     
     return behind
-    
-    
   }
