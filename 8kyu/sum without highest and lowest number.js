@@ -24,4 +24,6 @@ function sumArray(array) {
       return sum
         }
     }
+
+    
    
