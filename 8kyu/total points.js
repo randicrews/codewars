@@ -26,6 +26,3 @@ function points(games) {
     }
     return total
   }
-
-
-  
