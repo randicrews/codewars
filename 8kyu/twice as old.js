@@ -8,11 +8,10 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
     // given dads age & sons age
     // return the years from 'now' dad = son*2
     // ex: 20, 0 --> 20
-    
+  
     let double = dadYearsOld - ( sonYearsOld * 2 )
     if ( double < 0 ){
       double = double * -1
     }
-  
     return double
   }
