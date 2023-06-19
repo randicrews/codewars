@@ -18,6 +18,6 @@ function seatsInTheater(nCols, nRows, col, row) {
     
     // area of people behind u 
     const behind = (nRows - row) * (nCols - (col -1))
-    
+
     return behind
   }
