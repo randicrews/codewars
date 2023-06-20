@@ -12,7 +12,6 @@ function seatsInTheater(nCols, nRows, col, row) {
     // worried about ppl in your column and columns to left
     // how many people assuming no empty seats?
     // given total columns and total rows and the column and row ur in 
-    
     // area of whole theatre
     const wholeArea = nCols * nRows
     
