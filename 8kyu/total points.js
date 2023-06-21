@@ -16,6 +16,8 @@
 // 0 <= y <= 4
 
 function points(games) {
+
+  // make place to put the point value
     let total = 0
     for(let i = 0; i < games.length; i++){
       if (games[i][0] > games[i][2]){
