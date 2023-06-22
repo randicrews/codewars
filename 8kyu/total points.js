@@ -10,7 +10,6 @@
 // We need to write a function that takes this collection and returns the number of points our team (x) got in the championship by the rules given above.
 
 // Notes:
-
 // our team always plays 10 matches in the championship
 // 0 <= x <= 4
 // 0 <= y <= 4
