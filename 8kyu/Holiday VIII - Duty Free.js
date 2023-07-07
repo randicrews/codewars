@@ -8,3 +8,12 @@
 
 // All inputs will be integers. Please return an integer. Round down.
 
+function dutyFree(normPrice, discount, hol){
+    // find savings
+    // how many bottles saving = hol
+    // 
+    
+    let savings = (discount/100) * normPrice
+    return Math.floor(hol/savings)
+    
+  }
